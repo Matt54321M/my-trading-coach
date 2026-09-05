@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { createClient } from "@/client";
+import { createClient } from "./client";
 import { useState } from "react";
 
 const links = [
